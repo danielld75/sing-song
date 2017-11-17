@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+}
+.title {
+  flex: 1 1 20%;
+  align-self: cnter;
+}
+.title h2 {
+  font-family: "Times New Roman", serif;
+  text-shadow: 1px 1px 2px aqua;
+  font-size: 3em;
+}
