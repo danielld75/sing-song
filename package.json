@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/danielld75/sing-song/issues"
   },
-  "homepage": "https://github.com/danielld75/sing-song#readme"
+  "homepage": "https://github.com/danielld75/sing-song#readme",
+  "dependencies": {
+    "browser-sync": "^2.18.13"
+  }
 }
