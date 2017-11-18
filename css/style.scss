@@ -6,7 +6,7 @@ $font: "Times New Roman", serif;
   align-items: center;
   .title {
     flex: 1 1 20%;
-    align-self: cnter;
+    align-self: center;
     h2 {
       font-family: $font;
       text-shadow: 1px 1px 2px aqua;
@@ -15,7 +15,7 @@ $font: "Times New Roman", serif;
   }
 }
 .author {
-  padding: 15px;
+  padding: 20px 10px;
   color: brown;
   &::before {
     content: "Composer ";
