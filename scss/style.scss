@@ -10,13 +10,13 @@ $font: "Times New Roman", serif;
     h2 {
       font-family: $font;
       text-shadow: 1px 1px 2px aqua;
-      font-size: 2.5em;
+      font-size: 3em;
     }
   }
 }
 .author {
   padding: 25px 0;
-  color: darkred;
+  color: brown;
   &::before {
     content: "Composer ";
   }
