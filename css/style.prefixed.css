@@ -20,11 +20,11 @@
     .container .title h2 {
       font-family: "Times New Roman", serif;
       text-shadow: 1px 1px 2px aqua;
-      font-size: 3em; }
+      font-size: 4em; }
 
 .author {
   padding: 25px 0;
-  color: brown; }
+  color: red; }
   .author::before {
     content: "Composer "; }
 
@@ -33,3 +33,5 @@
   .song ul li {
     list-style-type: none;
     padding-top: 20px; }
+
+/*# sourceMappingURL=style.prefixed.css.map */
