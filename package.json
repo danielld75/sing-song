@@ -12,8 +12,7 @@
     "build:clean": "rimraf css/",
     "watch": "parallelshell \"npm run watch:sassprefixer\" \"npm run watch:browsersync \" ",
     "watch:browsersync": "browser-sync start --server --files \"css/*.css\" \"*.html\" ",
-    "watch:sass": "sass --watch scss/style.scss:css/style.css",
-    "watch:sassprefixer": "onchange scss/style.scss -- sass scss/style.scss:css/style.css -- autoprefixer-cli"
+    "watch:sassprefixer": "onchange -d 100 scss/style.scss -- sass -- autoprefixer-cli -o scss/style.scss:css/style.css"
   },
   "repository": {
     "type": "git",
