@@ -1,5 +1,7 @@
 .idea/*
 .sass-cache
+.css/
+
 # Logs
 logs
 *.log
